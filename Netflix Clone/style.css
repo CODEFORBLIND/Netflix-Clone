@@ -1,0 +1,140 @@
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Varela Round', sans-serif; */
+
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.firstContainer {
+    width: 100%;
+    height: 650px;
+    background-image: url(./Assets/1stbackgroundimg.jpg);
+}
+
+.logo img{
+    height: 5rem;
+    width: 12rem;
+}
+
+.signIn {
+    background-color: rgba(255, 0, 0, 0.938);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.signIn:hover {
+    /* opacity: 0.7; */
+    background-color: rgba(255, 0, 0, 0.685);
+}
+
+.header {
+    height: 5rem;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 2rem 1.5rem 2.5rem;
+    margin: -0.5rem 0rem 0rem -0.5rem;
+}
+
+.sideOptions {
+    display: flex;
+    margin-left: 15rem;
+    align-items: center;
+}
+
+.lang {
+    margin-right: 1rem;
+}
+
+.text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.textOne {
+    padding: 0rem 2rem;
+}
+
+.secondContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding: 4.5rem 0rem;
+}
+
+.textSecond {
+    text-align: center;
+    height: 11rem;
+    width: 30rem;
+}
+
+.questions {
+    padding: 6rem 0rem 0rem 0rem;
+    height: 51rem;
+    background-color: black;
+    color: white;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 7rem;
+}
+
+.questionButton {
+    background-color: rgb(83, 81, 81);;
+    padding: 0.75rem 0rem 0.75rem 0.75rem;
+    font-size: 1.75rem;
+    color: white;
+    margin-bottom: 0.7rem;
+}
+
+.footer {
+    background-color: black;
+    color: rgb(121, 121, 121);
+    padding: 2rem 0rem 2rem 7rem;
+}
+
+.questionLast a {
+    color: rgb(121, 121, 121);
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 5rem 1rem 0rem;
+}
+
+.listItems a{
+    color: rgb(121, 121, 121);
+}
+
+.listItems ul {
+    list-style-type: none;
+    padding-left: 0rem;
+}
+
+.questionLast {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.listItems li {
+    padding-bottom: 1rem;
+}
